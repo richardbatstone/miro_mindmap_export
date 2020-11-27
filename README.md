@@ -1,4 +1,4 @@
-# Miro mind_map export
+# Miro mindmap export
 
 This is a short development script to export miro (https://miro.com/index/) mindmaps in a structured form.
 
@@ -18,7 +18,7 @@ But in the meantime here's a script to get started.
 The idea is to export the mindmap as a nested json object in the form:
 
 ```
-{miro_id: {text:"string", branches:{}}
+{miro_id: {text:"string", branches:{}}}
 ```
 
 The top level is the central starting concept. Its branches are the concepts that it is linked to, and so on.
